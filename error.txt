@@ -1,0 +1,146 @@
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\YaleDoppler\python\process1.py", line 8, in <module>
+    file1str = str(sys.argv[2])
+IndexError: list index out of range
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='cp1252'>
+OSError: [Errno 22] Invalid argument
+Traceback (most recent call last):
+  File "process1.py", line 39, in <module>
+    toaddrs = sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "process1.py", line 45, in <module>
+    toaddrs = sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "process1.py", line 39, in <module>
+    toaddrs = sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "process1.py", line 39, in <module>
+    toaddrs = sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. r29sm92435qte.48 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. w185sm611143qkd.23 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. 48sm992050qtu.39 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. j62sm619720qtb.35 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. l32sm1019892qta.23 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. w7sm1033554qkb.7 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. o67sm3181009qkf.17 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. l129sm288908qke.27 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. w16sm1056200qta.10 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. h207sm2184010qke.12 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. s16sm1045514qke.14 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. l22sm532281qtl.34 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. i13sm3648178qte.42 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. r17sm1056900qkl.34 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. n89sm315443qte.38 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. 50sm483402qts.11 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. b132sm1036569qkg.8 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. g29sm1853616qtg.12 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. g29sm1854430qtg.12 - gsmtp')}
+Traceback (most recent call last):
+  File "process1.py", line 44, in <module>
+    server.sendmail(fromaddr, toaddrs, msg)
+  File "C:\Users\Scott\Anaconda3\lib\smtplib.py", line 871, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'': (555, b'5.5.2 Syntax error. c23sm2313939qtc.45 - gsmtp')}
+Traceback (most recent call last):
+  File "starList.py", line 36, in <module>
+    findObjects(sys.argv[1])
+IndexError: list index out of range
