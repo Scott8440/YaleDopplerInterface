@@ -20,7 +20,8 @@
 import os
 import sys
 
-fileLocation = "C:\\Users\\Scott\\Desktop\\CHIRON\\master.ascii"
+fileLocation = "C:\\xampp\\htdocs\\YaleDoppler\\python\\master.ascii"
+#fileLocation = "/home/scottsmith/Desktop/CHIRON/master.ascii"
 # returns a list of all unique PIDs in the master.ascii file
 def findAllpIDs():
     f = open(fileLocation, 'r')
@@ -61,8 +62,9 @@ def filterByIod(obsList, iod):
     filteredList = []
     for i in range(len(obsList)):
         sheetIOD = obsList[i][55:64].strip()
-        if (iod == 'IN' and (sheetIOD == 'OUT' or sheetIOD == '0')
-            or iod == 'OUT' and (sheetIOD == 'IN')):
+        if (iod == 'OUT' and (sheetIOD == 'OUT' or sheetIOD == '0')):
+            filteredList.append(obsList[i])
+        elif (iod == 'IN' and (sheetIOD == 'IN')):
             filteredList.append(obsList[i])
     return filteredList
 
@@ -107,8 +109,9 @@ def convertToObs(lst):
 # prints out a list in the form of HTML tags to create a selectable list
 def outputList(obsList):
     if (len(obsList) == 0):
-        print("<option disabled>No Matching Observations</options>")
+        print("<option disabled>No Matching Observations</option>")
     else:
+        print("<option></option>")
         for i in obsList:
             print("<option value="+str(i)+">"+str(i)+"</option>")
 
@@ -130,6 +133,7 @@ observationList = initializeAll()
 output = True
 for i in range(nArgs):
     curArg = sys.argv[i]
+    print(curArg)
     if (i % 1 == 0):            #argument is odd so it is a -? argument
         if (curArg == '-p'):
             observationList = filterByPid(observationList, sys.argv[i+1])
